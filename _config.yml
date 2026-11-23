@@ -1,0 +1,24 @@
+# Site settings. Restart `jekyll serve` after editing this file.
+title: "Crashes by sector"            # provisional title
+description: >-
+  How the 2000, 2008 and 2020 stock market crashes hit each sector
+  of the US economy, and whether the three crises look alike.
+author: "ADA 2026, group 23"
+lang: en
+
+# The site is served at https://leonard-amsler.github.io/ada-crises-sectors
+url: "https://leonard-amsler.github.io"
+baseurl: "/ada-crises-sectors"
+
+# Link to the code, shown in the footer
+code_repo: "https://github.com/epfl-ada/ada2026-ada-2026-project-group-23"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
