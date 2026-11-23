@@ -10,6 +10,10 @@ lang: en
 url: "https://leonard-amsler.github.io"
 baseurl: "/ada-crises-sectors"
 
+# plotly.js loaded by pages with `plotly: true` in their front matter.
+# Must match the Plotly version that exported the plots (printed at the top of each file in _includes/plots/).
+plotly_js_version: "4.1.1"
+
 # Link to the code, shown in the footer
 code_repo: "https://github.com/epfl-ada/ada2026-ada-2026-project-group-23"
 

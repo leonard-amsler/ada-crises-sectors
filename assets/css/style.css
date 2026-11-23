@@ -98,6 +98,20 @@ th, td { border-bottom: 1px solid var(--rule); padding: 0.4rem 0.6rem; text-alig
 
 img { max-width: 100%; height: auto; }
 
+/* Interactive Plotly charts (see _includes/plots/). Plotly draws on a white background in both themes. */
+.plot {
+  margin: 2rem 0;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: #ffffff;
+  overflow: hidden;
+}
+.plot-caption {
+  margin-top: -1.25rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 @media (max-width: 600px) {
   body { font-size: 1rem; }
   h1 { font-size: 1.7rem; }
